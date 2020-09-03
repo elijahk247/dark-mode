@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+// importing darkMode to use in the navBar
+import useDarkMode from '../hooks/useDarkMode'
+
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
   const toggleMode = e => {
